@@ -18,3 +18,6 @@ jobs:
         
       - name: Echo2
         run: echo "NG"
+
+      - name: Echo3
+        run: echo "O"
