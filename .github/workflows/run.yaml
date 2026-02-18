@@ -1,0 +1,17 @@
+name: Run
+
+on:
+  pull_request:
+    paths:
+      - '**'
+      - '!.github/**'
+
+jobs:
+  setup:
+    name: Setup
+
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Echo
+        run: echo "OK"
